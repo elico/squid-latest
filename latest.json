@@ -1,5 +1,7 @@
 {
+  "file": "squid-5.6.tar.xz",
   "url": "http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz",
+  "date": "Mon 06 Jun 2022 00:27:58 UTC",
   "size": 2565032,
   "MD5": "2f2201a18a0a727ab589d951ebe4f815",
   "SHA1": "a01f47b3e9ff06245c894773de30bfd88ab14f65"
