@@ -4,7 +4,11 @@ require "json"
 
 lines = File.open(ARGV[0]).readlines
 
+url = ARGV[1]
+
 latest = {}
+
+latest["url"] = url
 
 lines.each do |l|
 

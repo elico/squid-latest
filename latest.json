@@ -1,8 +1,8 @@
 {
-  "file": "squid-5.6.tar.xz",
-  "url": "http://www.squid-cache.org/Versions/v5/squid-5.6.tar.xz",
-  "date": "Mon 06 Jun 2022 00:27:58 UTC",
-  "size": 2565032,
-  "MD5": "2f2201a18a0a727ab589d951ebe4f815",
-  "SHA1": "a01f47b3e9ff06245c894773de30bfd88ab14f65"
+  "url": "http://mirror.marwan.ma/squid/software/squid-5.7.tar.xz",
+  "file": "squid-5.7.tar.xz",
+  "date": "Mon 05 Sep 2022 16:01:50 UTC",
+  "size": 2566560,
+  "MD5": "7a3764a3c5833631a779d7827901cda7",
+  "SHA1": "141e8007d6b1cfee34654127a9ca025125b37b58"
 }
