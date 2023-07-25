@@ -1,8 +1,8 @@
 {
-  "url": "http://mirror.marwan.ma/squid/software/squid-6.1.tar.xz",
-  "file": "squid-6.1.tar.xz",
-  "date": "Thu 06 Jul 2023 05:42:59 UTC",
-  "size": 2546668,
-  "MD5": "64841841e06ea487b0305070c33b04dd",
-  "SHA1": "4a3711e42ca9acbba580fd0c306cc2f6f84db1f8"
+  "url": "http://mirror.marwan.ma/squid/software/squid-5.9.tar.xz",
+  "file": "squid-5.9.tar.xz",
+  "date": "Sun 30 Apr 2023 22:43:48 UTC",
+  "size": 2569204,
+  "MD5": "35ee1d71091ce0603705b1a7475d96ae",
+  "SHA1": "38a723c3ef8776ef3c880772d85020af8b345a84"
 }
