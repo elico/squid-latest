@@ -1,3 +1,8 @@
 {
-  "url": "http://www.squid-cache.org/Versions/v6/squid-6.5.tar.xz"
+  "url": "http://www.squid-cache.org/Versions/v6/squid-6.5.tar.xz",
+  "file": "squid-6.5.tar.xz",
+  "date": "Mon 06 Nov 2023 07:07:10 UTC",
+  "size": 2554492,
+  "MD5": "da2797d899cf538fab7f504fdf3c18bf",
+  "SHA1": "07a08394625948750264778c82e19cf24ea7cb1f"
 }
