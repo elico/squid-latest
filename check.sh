@@ -2,6 +2,7 @@
 
 #URL=$(bash get-latest-from-ftp.sh)
 URL=$(ruby get-latest-squid-version.rb)
+FLAG_FILE=$(head -1 update-flag-file)
 
 curl -s "${URL}.asc" -o "in.asc"
 
@@ -14,8 +15,13 @@ if [ "${RES}" -gt "0" ];then
 	exit 0
 fi
 
-diff latest.json latest.json.in || \
-	mv latest.json.in latest.json
+diff latest.json latest.json.in || mv latest.json.in latest.json
+
+RES=$( find latest.json -mmin -1 -type f|wc -l )
+if [ "${RES}" -gt "0" ]
+then
+	touch "${FLAG_FILE}"
+fi
 # push
  
 git add latest.json && \
