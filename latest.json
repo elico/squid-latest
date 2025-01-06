@@ -1,8 +1,3 @@
 {
-  "url": "http://www.squid-cache.org/Versions/v6/squid-6.12.tar.xz",
-  "file": "squid-6.12.tar.xz",
-  "date": "Fri Oct 11 08:30:43 PM UTC 2024",
-  "size": 2548220,
-  "MD5": "26a264b234e22e012ea531d4f5d43ed1",
-  "SHA1": "2885015423b66f0b87e2e3ed0dfd17f3f124d7e6"
+  "url": "https://github.com/squid-cache/squid/releases/download/SQUID_6_12/squid-6.12.tar.gz"
 }
