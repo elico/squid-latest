@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
+env
+
 FLAG_FILE="/tmp/squid-version-updated"
 BUILD_DIR="/opt/src/squid-fedora-buildah-podman"
 
-stat "${FLAG_FILE}" 
-if [ "$?" -eq "0" ]
+if [ -f "${FLAG_FILE}" ]
 then
   rm -v "${FLAG_FILE}"
   cd "${BUILD_DIR}"

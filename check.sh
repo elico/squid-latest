@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 
 #URL=$(bash get-latest-from-ftp.sh)
-URL=$(ruby get-latest-squid-version.rb)
+#URL=$(ruby get-latest-squid-version.rb)
+URL=$( bash get-latest-from-github-releases.sh )
 FLAG_FILE=$(head -1 update-flag-file)
 
 curl -s "${URL}.asc" -o "in.asc"
 
 ruby latest-json-from-asc.rb "in.asc" "${URL}" | tee latest.json.in
 
-cat latest.json.in |jq -r .url | grep "tar.xz$"
+cat latest.json.in |jq -r .url | grep "tar.gz$"
 RES="$?"
 if [ "${RES}" -gt "0" ];then
-	echo "Url doesn't contain a tar.xz file"
+	echo "Url doesn't contain a tar.gz file"
 	exit 0
 fi
 
